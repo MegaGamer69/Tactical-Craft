@@ -14,7 +14,8 @@ public class TacticalCraft
 {
 	// Variaveis Estáticas
 	public static final String modID = new String("tacticalcraft");
-	public static final Logger console = LogManager.getLogger();
+	
+	private static final Logger console = LogManager.getLogger();
 
 	// Construtor
 	public TacticalCraft()
