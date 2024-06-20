@@ -1,0 +1,68 @@
+buildscript {
+    repositories {
+        maven {
+            url = "https://maven.minecraftforge.net/"
+        }
+
+        jcenter()
+    }
+
+    dependencies {
+        classpath "net.minecraftforge.gradle:ForgeGradle:5.1.+"
+    }
+}
+
+apply plugin "net.minecraftforge.gradle"
+
+version = "1000T"
+group = "com.tacticalcraft"
+
+minecraft {
+    version: "1.16.5"
+    
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            
+            mods {
+                tacticalcraft {
+                    sourceAssets.main {
+                        resources {
+                            srcDir "src/main/resources"
+                        }
+                    }
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            
+            mods {
+                tacticalcraft {
+                    sourceAssets.main {
+                        resources {
+                            srcDir "src/main/resources"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+repositories {
+    maven {
+        url = "https://maven.minecraftforge.net/"
+    }
+    
+    jcenter()
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:1.16.5-36.2.42"
+}
