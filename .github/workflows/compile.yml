@@ -8,7 +8,7 @@ jobs:
     name: Building Mod
     runs-on: windows-lastest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v3
     - uses: actions/setup-jdk@4.2.1
       with:
         distribution: "temurin"
