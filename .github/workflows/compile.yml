@@ -6,7 +6,7 @@ on:
 jobs:
   minecraft:
     name: Building Mod
-    runs-on: windows-lastest
+    runs-on: windows-latest
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-jdk@4.2.1
