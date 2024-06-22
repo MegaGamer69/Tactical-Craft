@@ -16,7 +16,7 @@ jobs:
     - uses: gradle/actions/setup-gradle@417ae3ccd767c252f5661f1ace9f835f9654f2b5
     - uses: gradle/gradle-build-action@v2
       with:
-        gradle-version: "8"
+        gradle-version: "8.8"
     - run: gradle build
     - uses: actions/upload-artifact@v4.3.3
       with:
