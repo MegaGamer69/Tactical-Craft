@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath "net.minecraftforge.gradle:ForgeGradle:6.+"
+        classpath "net.minecraftforge.gradle:ForgeGradle:6.0"
     }
 }
 
@@ -28,7 +28,7 @@ minecraft {
                 tacticalcraft {
                     sourceAssets.main {
                         resources {
-                            srcDir "resources"
+                            srcDir "src/main/resources"
                         }
                     }
                 }
@@ -42,10 +42,8 @@ minecraft {
             
             mods {
                 tacticalcraft {
-                    sourceAssets.main {
-                        resources {
-                            srcDir "src/main/resources"
-                        }
+                    resources {
+                        srcDir "src/main/resources"
                     }
                 }
             }
