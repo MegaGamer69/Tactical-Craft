@@ -12,13 +12,13 @@ buildscript {
     }
 }
 
-apply plugin "net.minecraftforge.gradle"
+apply plugin: "net.minecraftforge.gradle"
 
 version = "1000T"
 group = "com.tacticalcraft"
 
 minecraft {
-    version: "1.16.5"
+    version = "1.16.5"
     
     runs {
         client {
