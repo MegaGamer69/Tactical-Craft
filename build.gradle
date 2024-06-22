@@ -28,7 +28,7 @@ minecraft {
                 tacticalcraft {
                     sourceAssets.main {
                         resources {
-                            srcDir "src/main/resources"
+                            srcDir "resources"
                         }
                     }
                 }
