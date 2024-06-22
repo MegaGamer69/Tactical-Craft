@@ -19,7 +19,6 @@ group = "com.tacticalcraft"
 
 minecraft {
     mappingChannel = "official"
-    mappings = "snapshot_20210309"
     
     runs {
         client {
