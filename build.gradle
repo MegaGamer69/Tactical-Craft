@@ -26,10 +26,8 @@ minecraft {
             
             mods {
                 tacticalcraft {
-                    sourceAssets.main {
-                        resources {
-                            srcDir "src/main/resources"
-                        }
+                    resources {
+                        srcDir "src/main/resources"
                     }
                 }
             }
