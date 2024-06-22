@@ -1,24 +1,25 @@
 buildscript {
     repositories {
         maven {
-            url = "https://maven.minecraftforge.net/"
+            url = 'https://maven.minecraftforge.net/'
         }
 
         jcenter()
     }
 
     dependencies {
-        classpath "net.minecraftforge.gradle:ForgeGradle:6.0.14"
+        classpath 'net.minecraftforge.gradle:ForgeGradle:6.0.14'
     }
 }
 
-apply plugin: "net.minecraftforge.gradle"
+apply plugin: 'net.minecraftforge.gradle'
 
-version = "1000T"
-group = "com.tacticalcraft"
+version = '1000T'
+group = 'com.tacticalcraft'
 
 minecraft {
-    mappingChannel = "official"
+    mappingChannel = 'official'
+    mappingVersion = '20210309-1.16.5'
     
     runs {
         client {
@@ -55,17 +56,17 @@ minecraft {
 
 repositories {
     maven {
-        url = "https://maven.minecraftforge.net/"
+        url = 'https://maven.minecraftforge.net/'
     }
     
     jcenter()
 }
 
 dependencies {
-    minecraft "net.minecraftforge:forge:1.16.5-36.2.42"
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.42'
 }
 
 jar {
-    archiveBaseName.set("TacticalCraft")
-    archiveVersion.set("1.0.0")
+    archiveBaseName.set('TacticalCraft')
+    archiveVersion.set('1.0.0')
 }
