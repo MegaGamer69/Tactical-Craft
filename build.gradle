@@ -18,8 +18,6 @@ version = "1000T"
 group = "com.tacticalcraft"
 
 minecraft {
-    version = "1.16.5"
-    
     runs {
         client {
             workingDirectory project.file('run')
