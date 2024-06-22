@@ -25,10 +25,11 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
             
             mods {
+                // por Causa de Erros, não terá Recursos Aqui
                 tacticalcraft {
-                    resources {
+                    /*resources {
                         srcDir "src/main/resources"
-                    }
+                    }*/
                 }
             }
         }
@@ -39,10 +40,11 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
             
             mods {
+                // por Causa de Erros, não terá Recursos Aqui
                 tacticalcraft {
-                    resources {
+                    /*resources {
                         srcDir "src/main/resources"
-                    }
+                    }*/
                 }
             }
         }
