@@ -59,7 +59,7 @@ repositories {
         url = 'https://maven.minecraftforge.net/'
     }
     
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
@@ -68,5 +68,5 @@ dependencies {
 
 jar {
     archiveBaseName.set('TacticalCraft')
-    archiveVersion.set('1.0.0')
+    archiveVersion.set('1000T')
 }
