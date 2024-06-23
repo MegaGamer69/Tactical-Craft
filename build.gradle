@@ -19,7 +19,7 @@ group = 'com.tacticalcraft'
 
 minecraft {
     mappingChannel = 'official'
-    mappingVersion = '20210309-1.16.5'
+    mappingVersion = '1.16.5'
     
     runs {
         client {
