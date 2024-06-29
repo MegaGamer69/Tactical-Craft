@@ -9,7 +9,7 @@ import net.minecraftforge.fml.lifecycle.FMLClientSetupEvent;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-@Mod(TacticalCraft.MOD_ID, TacticalCraft.MOD_NM)
+@Mod(modid = TacticalCraft.MOD_ID, modname = TacticalCraft.MOD_NM)
 public class TacticalCraft
 {
 	// Variaveis Estáticas
