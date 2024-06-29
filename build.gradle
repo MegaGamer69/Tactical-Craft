@@ -18,8 +18,8 @@ version = '1000T'
 group = 'com.tacticalcraft'
 
 minecraft {
-    channelProviders = 'official'
-    channelVersion = '1.16.5'
+    mappingChannel = 'official'
+    mappingVersion = '1.16.5'
     
     runs {
         client {
