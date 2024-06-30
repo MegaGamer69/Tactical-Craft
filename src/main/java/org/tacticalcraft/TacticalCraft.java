@@ -26,12 +26,12 @@ public class TacticalCraft
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 	
-	private void setup(final FMLCommonSetupEvent event)
+	private void setup(FMLCommonSetupEvent event)
 	{
 		CONSOLE.info("Não Esqueça de Seguir nossa Equipe no Twitter(o Atual X) :D");
 	}
 
-	private void doClientStuffs(final FMLClientSetupEvent event)
+	private void doClientStuffs(FMLClientSetupEvent event)
 	{
 		CONSOLE.info("Não Esqueça de Seguir nossa equipe no Twitter(o Atual X) :D");
 	}
