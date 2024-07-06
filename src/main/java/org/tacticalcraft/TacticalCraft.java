@@ -25,12 +25,14 @@ public class TacticalCraft
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuffs);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
-	
+
+	// Configura
 	private void setup(FMLCommonSetupEvent event)
 	{
 		CONSOLE.info("Não Esqueça de Seguir nossa Equipe no Twitter(o Atual X) :D");
 	}
 
+	// Faz Coisas no Lado do Cliente
 	private void doClientStuffs(FMLClientSetupEvent event)
 	{
 		CONSOLE.info("Não Esqueça de Seguir nossa equipe no Twitter(o Atual X) :D");
