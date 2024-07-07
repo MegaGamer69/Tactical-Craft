@@ -22,5 +22,5 @@ public class TCItemsGroup
 		{
 			return new ItemStack(Items.IRON_SWORD);
 		}
-	}
+	};
 }
