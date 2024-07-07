@@ -6,8 +6,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
+
+import org.tacticalcraft.items.TCItems;
 
 @Mod(TacticalCraft.MOD_ID)
 public class TacticalCraft
@@ -23,6 +26,9 @@ public class TacticalCraft
 	{
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuffs);
+
+		TCItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+		
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
