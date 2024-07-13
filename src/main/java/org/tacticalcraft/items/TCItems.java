@@ -1,4 +1,4 @@
-package org.tactical.items;
+package org.tacticalcraft.items;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Item.Properties;
