@@ -10,8 +10,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import org.tacticalcraft.items.TCItems;
-
 @Mod(TacticalCraft.MOD_ID)
 public class TacticalCraft
 {
