@@ -18,24 +18,22 @@ public class TacticalCraft
 	public static final String MOD_NM = "Tactical Craft";
 	
 	private static final Logger CONSOLE = LogManager.getLogger();
-
+	
 	// Construtor
 	public TacticalCraft()
 	{
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuffs);
-        
-		TCItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
 		
 		MinecraftForge.EVENT_BUS.register(this);
 	}
-
+	
 	// Configura
 	private void setup(FMLCommonSetupEvent event)
 	{
 		CONSOLE.info("Não Esqueça de Seguir nossa Equipe no Twitter(o Atual X) :D");
 	}
-
+	
 	// Faz Coisas no Lado do Cliente
 	private void doClientStuffs(FMLClientSetupEvent event)
 	{
