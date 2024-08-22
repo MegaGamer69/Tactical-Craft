@@ -18,9 +18,9 @@ public class TCItems
 {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TacticalCraft.MOD_ID);
 	
-	public static final RegistryObject<Item> DOT_44_AMMO_ITEM = ITEMS.register("dot_44_ammo", () -> new Item(new Item().Properties().group(ItemGroup.ITEMS)));
+	public static final RegistryObject<Item> DOT_44_AMMO_ITEM = ITEMS.register("dot_44_ammo", new Item(new Item().Properties().group(ItemGroup.ITEMS)));
 
-	public static final RegistryObject<Item> IMPROVISED_KNIFE_ITEM = ITEMS.register("improvised_knife", () -> new Item(new Item().Properties().group(ItemGroup.COMBAT)));
+	public static final RegistryObject<Item> IMPROVISED_KNIFE_ITEM = ITEMS.register("improvised_knife", new Item(new Item().Properties().group(ItemGroup.COMBAT)));
 
 	@SubscribeEvent
 	public static void onRegisterItems(RegistryEvent.Register<Item> event)
