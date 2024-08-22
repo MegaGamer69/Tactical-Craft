@@ -1,5 +1,5 @@
 # Tactical Craft
-um Mod feito para Minecraft Forge(1.16.5) com Armas, Sistema Complexo de Saúde, Primeiros Socorros e **MUITO** mais
+um Mod feito para Minecraft Forge(1.20.1) com Armas, Sistema Complexo de Saúde, Primeiros Socorros e **MUITO** mais
 
 # Recomendações e Metas
 no Início não vai ter Muito, mas esperamos otimizar ao Máximo no Futuro com:
